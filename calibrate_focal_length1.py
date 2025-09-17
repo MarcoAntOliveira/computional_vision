@@ -3,7 +3,7 @@ import numpy as np
 import imutils
 
 # Parâmetros de calibração
-KNOWN_DISTANCE = 30.0  # cm
+KNOWN_DISTANCE = 95.0  # cm
 KNOWN_WIDTH = 9.5      # cm (largura real do objeto)
 
 # Faixa de cor vermelha em HSV

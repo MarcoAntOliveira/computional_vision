@@ -3,7 +3,7 @@ import numpy as np
 import imutils
 
 # Parâmetros de calibração
-KNOWN_DISTANCE = 30.0  # cm
+KNOWN_DISTANCE = 88.0  # cm
 KNOWN_WIDTH = 9.5      # cm (largura real do objeto)
 
 # Faixa de cor vermelha em HSV
@@ -11,7 +11,7 @@ lower_red = np.array([0, 100, 100])
 upper_red = np.array([10, 255, 255])
 
 # Acessar webcam
-camera = cv2.VideoCapture(0)
+camera = cv2.VideoCapture(4)
 if not camera.isOpened():
     print("Erro: não foi possível acessar a câmera.")
     exit()
